@@ -57,6 +57,6 @@ public partial class CameraRenderer
         Profiler.EndSample();
     }
 #else
-    private const string SAMPLE_NAME => BUFFER_NAME;
+    private const string SAMPLE_NAME = BUFFER_NAME;
 #endif
 }
